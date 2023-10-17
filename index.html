@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaSript Basics Quiz</title>
+</head>
+
+<body>
+    <div id="startPage">
+        <h1>JavaScript Basics Quiz</h1>
+
+        <button class="startBtn">Start Quiz</button>
+
+    </div>
+    <div id="questionPage" hidden>
+        <span id="timer"></span>
+        <h2 id="questionText">Question</h2>
+        <div id="answers">
+            <button>answer1</button>
+            <button>answer2</button>
+            <button>answer3</button>
+        </div>
+    </div>
+
+    <div id="scorePage"></div>
+    <button id="clearScores" onclick="clearScores">Clear Scores</button>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
